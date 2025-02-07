@@ -1,0 +1,31 @@
+body{
+    background: /*url(./paper1.jpg)*/ black 50% / cover no-repeat;
+    height: 98vh;
+    display: flex;
+    flex-shrink: 0;
+    color: white;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Phorssa;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

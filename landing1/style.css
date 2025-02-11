@@ -2,7 +2,7 @@
 
 
 html, body{
-    background: /*url(./paper1.jpg)*/ black 50% / cover no-repeat;
+    background: url(../images/paper1.jpg) black 50% / cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;

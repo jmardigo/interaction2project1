@@ -27,7 +27,7 @@ html, body{
     align-items: center;
 }
 
-.nav-bar{
+.navBar{
     display: flex;
     width: 100vw;
     margin: -10px;
@@ -36,38 +36,57 @@ html, body{
     color: black;
     position: sticky;
     justify-content: center;
-    align-items: center;
+    align-items:end;
 }
 
-.nav-expanded{
+
+
+.navExpanded{
     display: flex;
     width: 100vw;
     height: 115px;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-shrink: 0;
     border-radius: 0px 0px 25px 25px;
     background: #FFF;
     flex-wrap: wrap;
     padding-bottom: 2%;
-    position: sticky;
-    opacity: 0%;
+    position: absolute;
+    top: -90px;
 }
 
+.navExpandedDown{
+    top: 0px;
+    display: flex;
+    width: 100vw;
+    height: 115px;
+    justify-content: center;
+    align-items: end;
+    flex-shrink: 0;
+    border-radius: 0px 0px 25px 25px;
+    background: #FFF;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    position: absolute;
+}
 
+.lines{
+    justify-self: end;
+    position: absolute;
+}
 
 .button{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12rem;
+    width: 10rem;
     height: 3rem;
     flex-shrink: 0;
     background: #000;
     margin-left: .7rem;
     
 }
-
 
 .button-text{
     color: #FFF;
@@ -84,3 +103,4 @@ html, body{
     text-decoration-thickness: auto;
     text-underline-offset: auto;
 }
+

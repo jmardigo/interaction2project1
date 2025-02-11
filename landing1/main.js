@@ -1,8 +1,13 @@
-let navBar = document.querySelector(".nav-bar");
-let navExpanded = document.querySelector(".nav-expanded");
+function openMenu() {
+    navExpanded.classList.toggle("navExpandedDown");
+}
 
+function closeMenu() {
+    navExpandedDown.classList.toggle("navExpanded");
+}
 
-navBar.addEventListener("mouseenter", navExpanded);
-navExpanded.addEventListener("mouseleave", navBar);
+let navExpandedDown = document.querySelector(".navExpandedDown");
+let navExpanded = document.querySelector(".navExpanded");
 
-//javascript is hard.
+navExpanded.addEventListener("mouseenter", openMenu);
+navExpandedDown.addEventListener("mouseleave", closeMenu);

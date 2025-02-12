@@ -2,10 +2,11 @@
 
 
 html, body{
-    background: url(../images/paper1.jpg) black 50% / cover no-repeat;
+    background: /*url(../images/paper1.jpg)*/ black 50% / cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: white;
 }
 
@@ -25,82 +26,50 @@ html, body{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.navBar{
-    display: flex;
-    width: 100vw;
-    margin: -10px;
-    height: 40px;
-    background: #FFF;
-    color: black;
-    position: sticky;
     justify-content: center;
-    align-items:end;
 }
 
-
-
-.navExpanded{
-    display: flex;
-    width: 100vw;
-    height: 115px;
-    justify-content: center;
-    align-items: end;
-    flex-shrink: 0;
-    border-radius: 0px 0px 25px 25px;
-    background: #FFF;
-    flex-wrap: wrap;
-    padding-bottom: 2%;
-    position: absolute;
-    top: -90px;
-}
-
-.navExpandedDown{
-    top: 0px;
-    display: flex;
-    width: 100vw;
-    height: 115px;
-    justify-content: center;
-    align-items: end;
-    flex-shrink: 0;
-    border-radius: 0px 0px 25px 25px;
-    background: #FFF;
-    flex-wrap: wrap;
-    padding-bottom: 2%;
-    position: absolute;
-}
 
 .lines{
     justify-self: end;
     position: absolute;
 }
 
-.button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 10rem;
-    height: 3rem;
-    flex-shrink: 0;
-    background: #000;
-    margin-left: .7rem;
-    
+.invisible{
+    opacity: 0%;
 }
 
-.button-text{
-    color: #FFF;
+.nav{
+    width: 90vw;
+    color: white;
+    font-size: 10px;
+    z-index: 3;
+    top: 0px;
+    font-family: Inter;
+    border-bottom: 1px solid white;
+    height: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
     text-align: center;
-    font-family: inter;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -.06rem;
-    /*text-decoration-line: underline;*/
-    text-decoration-style: solid;
-    text-decoration-skip-ink: auto;
-    text-decoration-thickness: auto;
-    text-underline-offset: auto;
+    letter-spacing: -.7px;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
+strong{
+    font-size: 125%;
+}
+
+strong:hover{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    font-style: italic;
+}

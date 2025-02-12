@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Just+Me+Again+Down+Here&display=swap');
+
+html, body{
+    background: /*url(../images/paper3.jpg)*/ black 50% / cover;
+    background-repeat: initial;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-bottom: 10%;
+}
+
+
+.page-title{
+    color: white;
+    text-align: center;
+    font-family: Phorssa;
+    margin-top: 1em;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    background-color: transparent;
+}
+
+.main-text{
+    color: #FFF;
+    font-family: inter;
+    font-size: .9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quote-left{
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1px;
+    position: normal;
+    float: left;
+}
+
+.bottom-text{
+    color: #FFF;
+    text-align: center;
+    text-overflow: clip;
+    font-family: Inter;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.56px;
+    text-wrap: none;
+}
+
+.image-text{
+    display: inline-flex;
+    align-items: flex-end;
+    width: 422px;
+    height: auto;
+    gap: 12px;
+}
+
+.small{
+    width: auto;
+    height: 150px;
+}
+
+.caption-left{
+    color: #FFF;
+    font-family: inter;
+    font-size: .6em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.caption-right{
+    color: #FFF;
+    font-family: inter;
+    font-size: .6em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+}
+
+.nav{
+    width: 90vw;
+    color: white;
+    font-size: 14px;
+    z-index: 3;
+    top: 0px;
+    font-family: Inter;
+    border-bottom: 1px solid white;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+    letter-spacing: -.7px;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+strong{
+    font-size: 125%;
+}
+
+strong:hover{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    font-style: italic;
+}
+

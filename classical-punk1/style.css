@@ -36,14 +36,15 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20rem;
+    text-align: left;
+    width: 35rem;
     background-color: transparent;
 }
 
 .main-text{
     color: #FFF;
     font-family: inter;
-    font-size: .9em;
+    font-size: 1em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -78,20 +79,20 @@ html, body{
 .image-text{
     display: inline-flex;
     align-items: flex-end;
-    width: 422px;
+    width: 50em;
     height: auto;
-    gap: 22px;
+    gap: 20px;
 }
 
 .small{
-    width: 10em;
+    width: 25em;
     height: auto;
 }
 
 .caption-left{
     color: #FFF;
     font-family: inter;
-    font-size: .6em;
+    font-size: .7em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -100,7 +101,7 @@ html, body{
 .caption-right{
     color: #FFF;
     font-family: inter;
-    font-size: .6em;
+    font-size: .7em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -110,7 +111,7 @@ html, body{
 .nav{
     width: 90vw;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     z-index: 3;
     top: 0px;
     font-family: Inter;
@@ -123,6 +124,7 @@ html, body{
     justify-content: space-evenly;
     padding-top: 0px;
     padding-bottom: 10px;
+
 }
 
 strong{
@@ -140,4 +142,8 @@ a{
 
 a:hover{
     font-style: italic;
+}
+
+span{
+    color: white
 }

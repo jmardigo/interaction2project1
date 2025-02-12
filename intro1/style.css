@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Just+Me+Again+Down+Here&display=swap');
 @font-face {
-    font-family: "Phorssa";
-    src: local("Phorssa"),
-    url("../images/Phorssa.ttf") format("truetype");
-}
+    font-family: Phorssa;
+    src: url(../images/Phorssa.ttf);
+  }
 
 
 html, body{

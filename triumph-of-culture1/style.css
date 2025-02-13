@@ -120,12 +120,12 @@ html, body{
 
 .quote{
     color: #FFF;
-    text-align: right;
+    text-align: center;
     font-family: Inter;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 98%;
     letter-spacing: -2px;
     position: normal;
     float: left;

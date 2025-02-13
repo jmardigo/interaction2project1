@@ -5,6 +5,72 @@
   }
 
 
+/*mobile*/
+@media only screen and (max-width: 839px){
+    .page-title{
+        font-size: 2.7em;
+    }
+    .text-container{
+        width: 22rem;
+    }
+    .quote{
+        font-size: 1.6rem;
+
+    }
+    .imageL-text{
+        width: 20em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageR-text{
+        width: 20em;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .small{
+        width: 22em;
+        height: auto;
+    }
+    .caption-left{
+        text-align: center;
+
+    }
+    .caption-right{
+        text-align: center;
+        
+    }
+}
+
+/*desktop and tablet*/
+@media all and (min-width: 840px){
+    .page-title{
+        font-size: 6em;
+    }
+    .text-container{
+        width: 35rem;
+    }
+    .quote{
+        font-size: 2rem;
+    }
+    .imageL-text, .imageR-text{
+        width: 50em;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .small{
+        width: 25em;
+        height: auto;
+    }
+    .caption-left{
+        text-align: left;
+
+    }
+    .caption-right{
+        text-align: right;
+
+    }
+}
+
 html, body{
     background: /*url(../images/paper3.jpg)*/ black 50% / cover;
     background-repeat: initial;
@@ -29,7 +95,6 @@ html, body{
     text-align: center;
     font-family: Phorssa;
     margin-top: 1em;
-    font-size: 4em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -42,14 +107,12 @@ html, body{
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 35rem;
     background-color: transparent;
 }
 
 .main-text{
     color: #FFF;
     font-family: inter;
-    font-size: 1em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -81,18 +144,18 @@ html, body{
     text-wrap: none;
 }
 
-.image-text{
+.imageL-text, .imageR-text{
     display: inline-flex;
-    align-items: flex-end;
-    width: 50em;
+    /*width: 50em;*/
     height: auto;
     gap: 20px;
+    /*flex-direction: row;*/
 }
 
-.small{
+/*.small{
     width: 25em;
     height: auto;
-}
+}*/
 
 .caption-left{
     color: #FFF;
@@ -110,7 +173,7 @@ html, body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: right;
+    
 }
 
 .nav{

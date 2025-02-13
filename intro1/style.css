@@ -4,6 +4,32 @@
     src: url(../images/Phorssa.ttf);
   }
 
+/*mobile*/
+@media only screen and (max-width: 839px){
+    .page-title{
+        font-size: 2.7em;
+    }
+    .text-container{
+        width: 22rem;
+    }
+    .quote{
+        font-size: 1.6rem;
+
+    }
+}
+
+/*desktop and tablet*/
+@media all and (min-width: 840px){
+    .page-title{
+        font-size: 6em;
+    }
+    .text-container{
+        width: 35rem;
+    }
+    .quote{
+        font-size: 2rem;
+    }
+}
 
 html, body{
     background: /*url(../images/paper2.jpg)*/ black 50% / cover;
@@ -28,7 +54,6 @@ html, body{
     text-align: center;
     font-family: Phorssa;
     margin-top: 1em;
-    font-size: 4em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -41,7 +66,6 @@ html, body{
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 35rem;
     background-color: transparent;
 }
 
@@ -58,7 +82,6 @@ html, body{
     color: #FFF;
     text-align: right;
     font-family: Inter;
-    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

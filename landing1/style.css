@@ -112,15 +112,15 @@ span{
 @media only screen and (max-width: 839px){
     .page-title{
         padding: 5%;
-        font-size: 3.5em;
+        font-size: 3em;
     }
     .quote{
-        bottom: 37%;
+        bottom: 30%;
         font-size: 1.5rem;
 
     }
     .byline{
-        bottom: 33%;
+        bottom: 25%;
     }
 }
 

@@ -5,6 +5,72 @@
   }
 
 
+/*mobile*/
+@media only screen and (max-width: 839px){
+    .page-title{
+        font-size: 2.55em;
+    }
+    .text-container{
+        width: 22rem;
+    }
+    .quote{
+        font-size: 1.6rem;
+
+    }
+    .imageL-text{
+        width: 20em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageR-text{
+        width: 20em;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .small{
+        width: 22em;
+        height: auto;
+    }
+    .caption-left{
+        text-align: center;
+
+    }
+    .caption-right{
+        text-align: center;
+        
+    }
+}
+
+/*desktop and tablet*/
+@media all and (min-width: 840px){
+    .page-title{
+        font-size: 6em;
+    }
+    .text-container{
+        width: 35rem;
+    }
+    .quote{
+        font-size: 2rem;
+    }
+    .imageL-text, .imageR-text{
+        width: 50em;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .small{
+        width: 25em;
+        height: auto;
+    }
+    .caption-left{
+        text-align: left;
+
+    }
+    .caption-right{
+        text-align: right;
+
+    }
+}
+
 html, body{
     background: /*url(../images/paper3.jpg)*/ black 50% / cover;
     background-repeat: initial;
@@ -29,7 +95,6 @@ html, body{
     text-align: center;
     font-family: Phorssa;
     margin-top: 1em;
-    font-size: 4em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -42,28 +107,26 @@ html, body{
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 35rem;
     background-color: transparent;
 }
 
 .main-text{
     color: #FFF;
     font-family: inter;
-    font-size: 1em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.quote-left{
+.quote{
     color: #FFF;
-    text-align: left;
+    text-align: right;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     position: normal;
     float: left;
 }
@@ -81,23 +144,23 @@ html, body{
     text-wrap: none;
 }
 
-.image-text{
+.imageL-text, .imageR-text{
     display: inline-flex;
-    align-items: flex-end;
-    width: 422px;
+    /*width: 50em;*/
     height: auto;
-    gap: 12px;
+    gap: 20px;
+    /*flex-direction: row;*/
 }
 
-.small{
-    width: auto;
-    height: 150px;
-}
+/*.small{
+    width: 25em;
+    height: auto;
+}*/
 
 .caption-left{
     color: #FFF;
     font-family: inter;
-    font-size: .6em;
+    font-size: .7em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -106,11 +169,11 @@ html, body{
 .caption-right{
     color: #FFF;
     font-family: inter;
-    font-size: .6em;
+    font-size: .7em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: right;
+    
 }
 
 .nav{
@@ -129,6 +192,7 @@ html, body{
     justify-content: space-evenly;
     padding-top: 0px;
     padding-bottom: 10px;
+
 }
 
 strong{
@@ -149,5 +213,5 @@ a:hover{
 }
 
 span{
-    color: white;
+    color: white
 }

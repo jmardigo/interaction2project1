@@ -14,6 +14,10 @@ html, body{
     color: white;
 }
 
+/*flash of unstyled text
+order of things that are loading
+javascript, wait until pages are fully loaded*/
+
 .page-title{
     color: white;
     text-align: center;
@@ -111,6 +115,7 @@ span{
     .page-title{
         padding: 5%;
         font-size: 2.5em;
+        bottom: 40vh;
     }
     .quote{
         bottom: 30%;
@@ -126,6 +131,7 @@ span{
 @media all and (min-width: 840px){
     .page-title{
         font-size: 8em;
+        bottom: 35vh;
     }
     .quote{
         bottom: 25%;

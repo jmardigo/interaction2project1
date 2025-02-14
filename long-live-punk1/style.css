@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Just+Me+Again+Down+Here&display=swap');
+@font-face {
+    font-family: Phorssa;
+    src: url(../images/Phorssa.ttf);
+  }
+
+
+/*mobile*/
+@media only screen and (max-width: 839px){
+    .page-title{
+        font-size: 2.55em;
+    }
+    .text-container{
+        width: 22rem;
+    }
+    .quote{
+        font-size: 1.6rem;
+
+    }
+    .imageL-text{
+        width: 20em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageR-text{
+        width: 20em;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .small{
+        width: 22em;
+        height: auto;
+    }
+    .caption-left{
+        text-align: center;
+
+    }
+    .caption-right{
+        text-align: center;
+        
+    }
+}
+
+/*desktop and tablet*/
+@media all and (min-width: 840px){
+    .page-title{
+        font-size: 6em;
+    }
+    .text-container{
+        width: 35rem;
+    }
+    .quote{
+        font-size: 2rem;
+    }
+    .imageL-text, .imageR-text{
+        width: 50em;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .small{
+        width: 25em;
+        height: auto;
+    }
+    .caption-left{
+        text-align: left;
+
+    }
+    .caption-right{
+        text-align: right;
+
+    }
+}
+
+html, body{
+    background: /*url(../images/paper3.jpg)*/ black 50% / cover;
+    background-repeat: initial;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-bottom: 10%;
+}
+
+
+.page-title{
+    color: white;
+    text-align: center;
+    font-family: Phorssa;
+    margin-top: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background-color: transparent;
+}
+
+.main-text{
+    color: #FFF;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quote{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%;
+    letter-spacing: -2px;
+    max-width: 20em;
+    position: normal;
+    float: left;
+}
+
+.bottom-text{
+    color: #FFF;
+    text-align: center;
+    text-overflow: clip;
+    font-family: Inter;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.56px;
+    text-wrap: none;
+}
+
+.imageL-text, .imageR-text{
+    display: inline-flex;
+    /*width: 50em;*/
+    height: auto;
+    gap: 20px;
+    /*flex-direction: row;*/
+}
+
+/*.small{
+    width: 25em;
+    height: auto;
+}*/
+
+.caption-left{
+    color: #FFF;
+    font-family: inter;
+    font-size: .7em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.caption-right{
+    color: #FFF;
+    font-family: inter;
+    font-size: .7em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.nav{
+    width: 90vw;
+    color: white;
+    font-size: 18px;
+    z-index: 3;
+    top: 0px;
+    font-family: Inter;
+    border-bottom: 1px solid white;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+    letter-spacing: -.7px;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+strong{
+    font-size: 125%;
+}
+
+strong:hover{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    font-style: italic;
+}
+
+span{
+    color: white
+}

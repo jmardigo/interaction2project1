@@ -115,7 +115,6 @@ span{
     .page-title{
         padding: 5%;
         font-size: 2.5em;
-        bottom: 40vh;
     }
     .quote{
         bottom: 30%;
@@ -131,7 +130,6 @@ span{
 @media all and (min-width: 840px){
     .page-title{
         font-size: 8em;
-        bottom: 35vh;
     }
     .quote{
         bottom: 25%;

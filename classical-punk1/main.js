@@ -5,7 +5,9 @@ const chickenCase = str => str
     l.toLowerCase()
   )
 .join('')
-//honestly idk how the code above works but shoutout jakob on stackoverflow
+//shoutout jakob on stackoverflow. you have saved this entire operation
+//sara just said i could've just made a gif in photoshop and then plopped it in. 
+//WHY DIDN'T I THINK OF THAT
 
 
 console.log(title) //debug

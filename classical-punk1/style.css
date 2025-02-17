@@ -218,3 +218,23 @@ a:hover{
 span{
     color: white
 }
+
+/*code for arrow nav
+
+        <div class="arrow-nav">
+            <a href="../classical-punk1/"> < </a>  <div class="spacer"></div> <a href="../discourse-of-subculture1/"> > </a>
+            </div> */
+
+            .arrow-nav{
+                color: white;
+                font-size: 36px;
+                font-style: bold;
+                display: flex;
+                flex-direction: row;
+                margin-top: 2vh;
+            }
+            
+            .spacer{
+                width: 50vw;
+            }
+            

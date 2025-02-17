@@ -215,3 +215,16 @@ a:hover{
 span{
     color: white
 }
+
+.arrow-nav{
+    color: white;
+    font-size: 36px;
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+
+.spacer{
+    width: 50vw;
+}
